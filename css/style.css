@@ -1,0 +1,119 @@
+    body {
+        margin: 0;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    /* ===============================
+        header
+===============================         */
+    
+    header {
+        background-image: url('../images/bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px
+    }
+    
+    header img {
+        width: 265px;
+        height: 100px;
+        margin-top: 15px;
+    }
+    
+    header .nav-bar {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    li {
+        list-style-type: none;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+    
+    .btn {
+        height: 40px;
+        border: solid blue;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    
+    header nav {
+        display: flex;
+    }
+    
+    .header-description {
+        width: 500px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+    
+    .card-hover:hover,
+    .fa-anchor:hover {
+        background-color: blue;
+        color: white;
+    }
+    
+    .fa-anchor:hover {
+        color: white !important;
+    }
+    
+    .services hr {
+        color: black;
+    }
+    
+    .services hr:hover {
+        color: white !important;
+    }
+    /* ===============================================
+                 section portfolio
+    ============================================ */
+    
+    .portfolio {
+        background-image: linear-gradient(rgb(204, 197, 197), yellow, blue);
+    }
+    
+    .pimg {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .pimg img {
+        height: 100%;
+        width: 100%
+    }
+    /* =================
+       footer
+    ================ */
+    
+    footer nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    footer input {
+        border-radius: 20px;
+        margin-top: 40px;
+        cursor: pointer;
+        padding-left: 10px;
+        outline-style: none;
+    }
+    
+    footer i {
+        padding: 10px;
+        border-radius: 50%;
+        background-color: gray;
+        color: rgba(17, 16, 16, 0.911);
+        margin: 20px 20px;
+    }
+    
+    footer i:hover {
+        background-color: rgb(3, 100, 63);
+        color: white;
+    }
